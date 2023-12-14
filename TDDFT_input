@@ -1,0 +1,13 @@
+! CAM-B3LYP Def2-TZVP NormalPrint AIM TightSCF Printbasis PrintMOs
+%scf MaxIter 500 end
+%pal nprocs 10 end
+%maxcore 11000
+%tddft
+ NRoots 4
+ maxcore 11000
+ MaxIter 500
+ triplets True
+ tda false
+ UPOP true
+ DoQuad true
+end
